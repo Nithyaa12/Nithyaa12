@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Nithyaa - Startup Journey</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* CSS for timeline */
+        .timeline {
+            list-style-type: none;
+            position: relative;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            background: #d4d9df;
+            display: inline-block;
+            position: absolute;
+            left: 29px;
+            width: 2px;
+            height: 100%;
+            z-index: 400;
+        }
+
+        .timeline li {
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+
+        .timeline li::before {
+            content: '';
+            background: white;
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            border: 3px solid #22c0e8;
+            left: 20px;
+            width: 20px;
+            height: 20px;
+            z-index: 400;
+        }
+
+        .timeline-content {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .timeline-content h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">Nithyaashree Giridharan</a></h1>
+            <nav class="links">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <nav class="main">
+                <ul>
+                    <li class="menu">
+                        <a class="fa-bars" href="#menu">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <div id="main">
+            <!-- Introduction Paragraph -->
+            <section class="blurb">
+                <h2>My Startup Journey</h2>
+                <p>Welcome to the chronicle of my entrepreneurial journey. This timeline captures the daily efforts, milestones, and experiences as I build and grow my startup. Join me as I navigate the challenges and celebrate the victories of this exciting venture. I left my full-time job at an EV company in April, to begin my own. Actually two- Atomspace- A space startup and Rolodeck- A software+hardware work I am extremely passionate about. I am almost into 1 month of building, this page should serve in a few years what I would call the Guide to Starting Up for Dummies.</p>
+
+                <!-- Timeline Section -->
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-content">
+                            <h3>June 1, 2024</h3>
+                            <p>Atomspace- Built the prototype circuit for Atomspace EDS. <br> Rolodeck-Started with building app.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3>June 2, 2024</h3>
+                            <p>Atomspace- Reaching out to potential customers and getting RoI. <br> Rolodeck- Building the APIs on Django.<p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3>June 3, 2024</h3>
+                            <p>Atomspace- Working on performing Battery charge and discharge tests. <br> Rolodeck- Procurement of hardware for wearable as an input device.<p>
+                        </div>
+                    </li>
+                    <!-- Add more timeline items here -->
+                </ul>
+            </section>
+        </div>
+        
+        <section id="menu">
+            <li><a href="about.html" class="button">About</a></li>
+            <li><a href="blog.html" class="button">Blog</a></li>
+            <li><a href="projects.html" class="button">Projects</a></li>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <ul class="icons">
+                <!-- Add your footer icons or content here -->
+            </ul>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
